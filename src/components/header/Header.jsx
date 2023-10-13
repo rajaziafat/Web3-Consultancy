@@ -9,16 +9,16 @@ const Header = () => {
     return (
         <>
             <header className="bg-black bg-opacity-[.3] absolute w-full">
-                <nav className="flex items-center justify-between min-h-[100px] px-2 lg:px-10">
+                <nav className="flex items-center justify-between min-h-[80px] md:min-h-[100px] px-2 lg:px-10">
                     <div className="flex items-center justify-start gap-[10px]">
                         <img src="/logo.png" alt="" className="max-h-[45px] md:max-h-[55px] lg:max-h-[60px]" />
                         <img src="/logo2.png" alt="" className="max-h-[18px] md:max-h-[26px] lg:max-h-[30px] mt-1" />
                     </div>
                     <div>
                         <ul className="items-center justify-center lg:text-[18px] gap-[50px] hidden md:flex">
-                            <li>Home</li>
-                            <li>Services</li>
-                            <li>Contact</li>
+                            <li className="cursor-pointer">Home</li>
+                            <li className="cursor-pointer">Services</li>
+                            <li className="cursor-pointer">Contact</li>
                         </ul>
                     </div>
                     <div className="hidden md:flex">
@@ -77,7 +77,7 @@ const Header = () => {
                                                 </button>
                                             </div>
                                         </Transition.Child>
-                                        <div className="flex h-full flex-col overflow-y-scroll bg-[#001125] py-6 shadow-xl">
+                                        <div className="flex h-full flex-col overflow-y-scroll bg-[#001125] py-6 shadow-xl overflow-hidden">
                                             <div className="px-4 sm:px-6">
                                                 <Dialog.Title className="text-base font-semibold leading-6 text-gray-900">
 
@@ -85,10 +85,17 @@ const Header = () => {
                                             </div>
                                             <div className="relative mt-6 flex-1 px-4 sm:px-6">
                                                 <ul className="items-center justify-center flex-col lg:text-[18px] gap-[20px] flex text-white">
-                                                    <li>Home</li>
-                                                    <li>Services</li>
-                                                    <li>Contact</li>
+                                                    <li className="cursor-pointer">Home</li>
+                                                    <li className="cursor-pointer">Services</li>
+                                                    <li className="cursor-pointer">Contact</li>
+
                                                 </ul>
+
+                                                <div className="absolute bottom-0 left-1 flex justify-center items-center w-[100%]">
+                                                    <button className="w-[140px] border border-[#8A54FF] rounded-[10px] flex items-center transition hover:bg-[#8A54FF] justify-center h-[40px] test-[20px] pb-[3px]">
+                                                        Reach out
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
                                     </Dialog.Panel>

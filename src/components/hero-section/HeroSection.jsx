@@ -8,10 +8,10 @@ const HeroSection = () => {
                 </h1>
                 <p className="text-center md:text-start text-[#ffffff]">​​Bankless Consulting is the world's first web3-native consulting firm. Whether you're a DAO or a traditional enterprise, we’ll help you capture the potential of the rapidly expanding decentralized economy.</p>
                 <div className="flex justify-center md:justify-start items-center md:items-start gap-[10px] sm:gap-[30px] w-full">
-                    <button className="w-[110px] sm:w-[170px] bg-[#8A54FF] border border-[#8A54FF] rounded-[10px] flex items-center justify-center h-[30px] test-[20px] pb-[3px]">
+                    <button className="w-[110px] sm:w-[150px] bg-[#8A54FF] transition hover:bg-transparent border border-[#8A54FF] rounded-[10px] flex items-center justify-center h-[40px] test-[20px] pb-[3px]">
                         Take a tour
                     </button>
-                    <button className="w-[110px] sm:w-[170px] border border-[#8A54FF]  rounded-[10px] flex items-center justify-center h-[30px] test-[20px] pb-[3px]">
+                    <button className="w-[110px] sm:w-[150px] border border-[#8A54FF] hover:bg-[#8A54FF] rounded-[10px] flex items-center justify-center h-[40px] test-[20px] pb-[3px]">
                         Reach out
                     </button>
                 </div>

@@ -1,3 +1,5 @@
+import FooterTop from "../components/footer-top/FooterTop"
+import Footer from "../components/footer/Footer"
 import GlobalySection from "../components/globally-section/GlobalySection"
 import Header from "../components/header/Header"
 import HelpYouSection from "../components/help-you-section/HelpYouSection"
@@ -25,6 +27,8 @@ const Home = () => {
                     </div>
                 </div>
                 <GlobalySection/>
+                <FooterTop/>
+                <Footer/>
             </div>
         </div>
     )
