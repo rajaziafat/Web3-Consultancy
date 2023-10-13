@@ -1,14 +1,30 @@
+import GlobalySection from "../components/globally-section/GlobalySection"
 import Header from "../components/header/Header"
+import HelpYouSection from "../components/help-you-section/HelpYouSection"
 import HeroBottom from "../components/hero-bottom/HeroBottom"
 import HeroSection from "../components/hero-section/HeroSection"
+import MapSection from "../components/map-section/MapSection"
 
 const Home = () => {
     return (
         <div className="parent-container">
             <div className="child-container">
                 <Header />
-                <HeroSection/>
-                <HeroBottom/>
+                <HeroSection />
+                <HeroBottom />
+                <MapSection />
+                <div className="flex justify-center items-center">
+                    <div className="max-w-[1500px] w-full ">
+                        <div className="border-[#8A54FF] border-[3px] rounded-lg"></div>
+                    </div>
+                </div>
+                <HelpYouSection/>
+                <div className="flex justify-center items-center">
+                    <div className="max-w-[1500px] w-full ">
+                        <div className="border-[#8A54FF] border-[3px] rounded-lg"></div>
+                    </div>
+                </div>
+                <GlobalySection/>
             </div>
         </div>
     )

@@ -22,7 +22,7 @@ const Header = () => {
                         </ul>
                     </div>
                     <div className="hidden md:flex">
-                        <button className="w-[170px] border border-[#8A54FF] rounded-[10px] flex items-center justify-center h-[30px] test-[20px] pb-[3px]">
+                        <button className="w-[150px] border border-[#8A54FF] rounded-[10px] flex items-center transition hover:bg-[#8A54FF] justify-center h-[43px] test-[20px] pb-[3px]">
                             Reach out
                         </button>
                     </div>

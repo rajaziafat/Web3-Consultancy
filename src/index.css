@@ -45,6 +45,7 @@
   background-size: cover;
 }
 
+
 @media only screen and (max-width: 600px) {
   .hero-bg {
     background-image: none;
