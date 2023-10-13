@@ -12,7 +12,7 @@ const HeroSection = () => {
                         Take a tour
                     </button>
                     <button className="w-[110px] sm:w-[150px] border border-[#8A54FF] hover:bg-[#8A54FF] rounded-[10px] flex items-center justify-center h-[40px] test-[20px] pb-[3px]">
-                        Reach out
+                        Learn more
                     </button>
                 </div>
             </div>
