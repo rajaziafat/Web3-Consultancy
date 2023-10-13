@@ -9,7 +9,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #001125;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -23,4 +23,30 @@
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+}
+
+.parent-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.child-container {
+  width: 100%;
+  max-width: 1600px;
+}
+/* Hero section bg */
+.hero-bg {
+  background-image: url("/hero-bg.png");
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-bg {
+    background-image: none;
+  }
 }
