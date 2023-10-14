@@ -11,7 +11,7 @@ const FooterTop = () => {
                             <input type="text" placeholder="Name" className="bg-[#B8B8B8] text-[#000000] px-3 placeholder:text-[#000000] outline-none py-[6px] xl:py-[9px] w-full" />
                             <input type="text" placeholder="Email" className="bg-[#B8B8B8] text-[#000000] px-3 placeholder:text-[#000000] outline-none py-[6px] xl:py-[9px] w-full" />
                             <textarea placeholder="Description" className="bg-[#B8B8B8] text-[#000000] px-3 placeholder:text-[#000000] outline-none xl:py-[9px] py-[6px] w-full" cols="20" rows="6"></textarea>
-                            <button className="w-[150px] font-[500] border border-[#8A54FF] bg-[#8A54FF] rounded-[10px] flex items-center text-black transition  justify-center h-[43px] test-[20px] pb-[3px]">
+                            <button className="w-[150px] font-[500] border border-[#8A54FF] bg-[#8A54FF] rounded-[10px] flex items-center text-white hover:bg-transparent hover:text-black transition  justify-center h-[43px] test-[20px] pb-[3px]">
                                 Submit
                             </button>
                         </div>
