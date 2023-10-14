@@ -1,7 +1,7 @@
 
 const HeroSection = () => {
     return (
-        <div className="w-full min-h-[90vh] mb-[-60px] sm:mb-0 sm:min-h-[715px] hero-bg flex flex-col items-start justify-center px-3 md:px-[90px]">
+        <div className="w-full sm:mb-0 min-h-screen hero-bg flex flex-col items-start justify-center px-3 md:px-[90px]">
             <div className="w-full md:max-w-[530px]  flex flex-col items-start justify-center gap-[20px] sm:gap-[40px] mt-[80px]">
                 <h1 className="text-center md:text-start  text-[30px] leading-[34px] sm:text-[48px] font-[600] sm:leading-[50px] text-[#ffffff]">
                     Web3-native consulting for a decentralized future.
