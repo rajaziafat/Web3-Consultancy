@@ -1,9 +1,9 @@
 
 const FooterTop = () => {
     return (
-        <div className="bg-[#D6D6D6] flex items-center justify-center sm:py-[40px] py-3 md:py-0 lg:py-0 w-full">
+        <div className="bg-[#D6D6D6] lg:min-h-screen flex items-center justify-center w-full overflow-hidden">
             <div className="flex items-center justify-center flex-col md:flex-row gap-[30px] md:gap-[50px] xl:gap-[120px] md:pl-[20px] xl:pl-[90px]">
-                <div className="flex-1 flex w-full px-4 md:px-0">
+                <div className="flex-1 flex w-full px-4 md:px-0 z-10">
                     <form className="text-[#343434] w-full pt-[10px] sm:pt-0">
                         <h1 className="text-[29px] sm:text-[26px] md:text-[30px] lg:text-[34px] xl:text-[38px] text-start font-[600]">Talk to us</h1>
                         <p className="text-[16px] sm:text-[15px] md:text-[16px] tlg:text-[17px] xl:text-[19px] text-start lg:mt-1">We would love to hear what you’re building</p>
@@ -18,7 +18,7 @@ const FooterTop = () => {
                     </form>
                 </div>
                 <div className="flex-1 flex">
-                    <img src="/Frame 5.png" alt="" className="h-full w-full object-fit max-h-[1000px] self-end" />
+                    <img src="/Frame 5.png" alt="" className="h-full w-full object-cover xl:scale-[1.2]" />
                 </div>
             </div>
         </div>
